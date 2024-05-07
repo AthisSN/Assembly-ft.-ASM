@@ -10,7 +10,7 @@ _start:
         syscall
 
         mov rax, 60 ; Exit syscall
-        mov rdi, 0 ; Exitcode
+        mov rdi, 0 ; status
         syscall
 
 section .data
